@@ -5,9 +5,10 @@
 .gameContainer {
   display: grid;
   grid-template-columns: repeat(3, 200px);
-  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 1px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .square {
   width: 200px;
